@@ -38,7 +38,9 @@ git clone https://github.com/MCnima/web.git
 cd web
 ```
 
-### 3. Create & Activate a Virtual Environment
+### 3. Set Up Virtual Environment (Recommended)
+
+Create and activate a virtual environment to manage dependencies cleanly:
 
 - **Linux / macOS:**
   ```bash
@@ -46,13 +48,21 @@ cd web
   source venv/bin/activate
   ```
 
-- **Windows:**
-  ```bash
+- **Windows (Command Prompt):**
+  ```cmd
   python -m venv venv
-  venv\Scripts\activate
+  venv\Scripts\activate.bat
+  ```
+
+- **Windows (PowerShell):**
+  ```powershell
+  python -m venv venv
+  venv\Scripts\Activate.ps1
   ```
 
 ### 4. Install Dependencies
+
+Once your virtual environment is activated, install the required packages:
 
 ```bash
 pip install -r requirements.txt
