@@ -84,4 +84,4 @@ python main.py
 
 ## 📄 License
 
-This project is licensed under the terms defined in the repository (or un-licensed / public domain if none is specified).
+MIT licence
