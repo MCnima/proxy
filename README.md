@@ -1,4 +1,4 @@
-# Proxy Scraper & Parser (`web`)
+# Proxy Scraper & Parser
 
 A lightweight Python tool that fetches live public proxy lists from the Geonode API, processes the raw payload, and structures the proxy metadata.
 
